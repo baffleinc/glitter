@@ -1,0 +1,121 @@
+/* all app scss styles here */
+
+// @import "../bower_components/foundation/scss/foundation/functions";
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5{
+	font-family: 'Oswald', sans-serif;
+}
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(../images/glitter.jpg) no-repeat;
+background-size: cover;
+}
+
+.container{
+	min-height: 100%;
+}
+
+.hero{
+	display: table;
+	height: 100vh;
+	width: 100%;
+
+	color: #fff;
+
+	> div{
+		display: table-cell;
+		text-align: center;
+		height: 100%;
+		vertical-align: middle;
+	}
+
+	h1{
+		color: #fff;
+		font-family: 'Rancho', cursive;
+		font-size: 72px;
+		font-style: italic;
+		transform: rotate(-5deg);
+	}
+
+	p{
+		font-size: 22px;
+	}
+
+	.button{
+		font-size: 28px;
+	}
+}
+
+.info{
+	padding: 4em 0 5em;
+	background-color: #fff;
+
+	hr{
+		margin: 3em 0;
+	}
+}
+
+.features{
+	text-align: center;
+}
+
+.testimonial{
+	padding: 4em 0 5em;
+	text-align: center;
+	
+	h3{
+		font-size: 52px;
+		color: #fff;
+		font-family: 'Rancho', cursive;
+		font-size: 
+	}
+}
+
+.checkout{
+	background-color: #fff;
+	padding: 3em 0 4em;
+
+	.products{
+
+		@include block-grid(3);
+		li{
+			list-style: none;
+
+		}
+	}
+}
+
+header{
+	background: url(../images/header-bg.jpg) no-repeat center center;
+	background-size: 100%;
+
+	h1{
+		font-family: 'Rancho', cursive;
+		text-align: center;
+		color: #fff;
+		padding: 2em 0;
+		background: rgba(0,0,0,0.4);
+	}
+}
+
+#ship-to-different-address,
+.woocommerce-message,
+.payment_methods{
+	display: none;
+}
+
+#customer_details{
+	@include grid-column(6);
+}
+
+#order_review{
+	@include grid-column(6);
+}

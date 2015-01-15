@@ -1,0 +1,21 @@
+<!doctype html>
+<html class="no-js" lang="en" >
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ship your haters glitter</title>
+	<link href='http://fonts.googleapis.com/css?family=Rancho|Oswald:400,300' rel='stylesheet' type='text/css'>
+	<!-- build:css css/libraries.min.css -->
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/app/bower_components/font-awesome/css/font-awesome.css">
+	<!-- bower:css -->
+	<!-- endbower -->
+	<!-- endbuild -->
+	<!-- build:css css/app.min.css -->
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/app/css/app.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/app/css/app_override.css">
+	<!-- endbuild -->
+	<!-- build:js js/vendor/modernizr.min.js -->
+	<script src="<?php bloginfo('template_directory'); ?>/app/bower_components/modernizr/modernizr.js"></script>
+	<!-- endbuild -->
+  </head>
+  <body>
