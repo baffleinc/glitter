@@ -11,8 +11,8 @@
 				<div class="row">
 					<div class="small-12 medium-8 columns medium-offset-2">
 						<h1>SHIP YOUR <br> HATERS SOME <br> FUCKING GLITTER</h1>
-						<p>Want to fuck someone off by sending them a glitter bomb? Looks like the other guys aren't doing it anymore! We love them but fuck them! well do it for $9.99.</p>
-						<p><a href="" class="button">BUY NOW</a></p>
+						<p>Want to fuck someone off by sending them a glitter bomb? Looks like the other guys aren't doing it anymore! We love them but fuck them! we'll do it for $9.99.</p>
+						<p><a href="#checkout" class="button">BUY NOW</a></p>
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 		</div>
 	</div>
 
-	<div class="checkout">
+	<div class="checkout" id="checkout">
 		  <div class="row">
 		  	<div class="small-12 columns">
 		  		<h2>Ready to fuck up someone's day? We sure are.</h2>
